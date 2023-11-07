@@ -4,7 +4,7 @@
 
 Plant3D allows user to create customed 3D pipe supports using Python code. To test the code, we need to register the script by restarting Plant3D for every change. 
 
-This script load the python code for Plant 3D cutom parts and load the corresponding shape on Plant 3D. 
+This script loads the python code for Plant 3D cutom parts and load the corresponding shape on Plant 3D. 
 Comparing to normal testing process that requires the restart of PLANT 3D, this script provide a faster way to test/debug the code. 
 
 
@@ -24,4 +24,4 @@ Comparing to normal testing process that requires the restart of PLANT 3D, this 
     5. don't support if-else statements or other condition logic
     6. only support the following comments: (the rest will be ignored)
     [BOX, CYLINDER, CONE, ARC3D, HALFSPHERE, TORUS, translate, rotate, subtractFrom, intersectWith, uniteWith]
-'''
+
